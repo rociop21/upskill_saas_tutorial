@@ -16,7 +16,42 @@
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
 h1, h2, h3 {
     font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.navbar {
+    background: #85929c;
+    border: none;
+    color: black;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a  {
+    color: black;
+    &:hover {
+      color: black;
+      opacity: 0.50;
+    }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+.navbar-default .navbar-toggle {
+    border: 1.5px solid black;
+    &:hover, &:focus{
+        background-color: #85929c;
+        opacity: 0.20;
+    }
 }
