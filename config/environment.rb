@@ -8,7 +8,7 @@ ActionMailer::Base.smtp_settings = {
   :port           => ENV['587'],
   :address        => ENV['smtp.gmail.com'],
   :user_name      => ENV['DevMatchRocio@gmail.com'],
-  :password       => ENV['Arbolcaido2020.'],
+  :password       => ENV['DevMatchRocio2020.'],
   :domain         => 'protected-refuge-99929.herokuapp.com',
   :authentication => :plain,
 }
