@@ -38,6 +38,12 @@ gem 'hirb', '0.7.3'
 # Use Devise for user authentication
 gem 'devise', '4.2.0'
 
+# Use Stripe for payment processing
+gem 'stripe', '1.48.0'
+
+# Use Figaro for ENV variables
+gem 'figaro', '1.1.1'
+
 group :development, :test do
   # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '1.3.13'
@@ -52,6 +58,7 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '2.0.0'
+
 end
 
 group :production do
