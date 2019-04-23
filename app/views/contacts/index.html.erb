@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <ul class="list-unstyled">
+            <% @contacts.each do |contact| %>
+            <div class="well row">
+                <li><%= contact.name %></li>
+                <li><%= contact.email %></li>
+                <li><%= contact.comments %></li>
+            </div>
+            <% end %>
+            </ul>
+        </div>
+    </div>
+</div>
